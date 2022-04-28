@@ -9,16 +9,18 @@
 /* Begin PBXBuildFile section */
 		37AB29AD27E012DB00D425C3 /* zzapptalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AB29AC27E012DB00D425C3 /* zzapptalkApp.swift */; };
 		37AB29AF27E012DB00D425C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AB29AE27E012DB00D425C3 /* ContentView.swift */; };
-		37AB29B127E012DD00D425C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37AB29B027E012DD00D425C3 /* Assets.xcassets */; };
 		37AB29B427E012DD00D425C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37AB29B327E012DD00D425C3 /* Preview Assets.xcassets */; };
+		5574D4B2280E77D0002411DE /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5574D4B1280E77D0002411DE /* Media.xcassets */; };
+		55EA51BF2819C13F0097082B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55EA51BE2819C13F0097082B /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		37AB29A927E012DB00D425C3 /* zzapptalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zzapptalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37AB29AC27E012DB00D425C3 /* zzapptalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zzapptalkApp.swift; sourceTree = "<group>"; };
 		37AB29AE27E012DB00D425C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		37AB29B027E012DD00D425C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37AB29B327E012DD00D425C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5574D4B1280E77D0002411DE /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		55EA51BE2819C13F0097082B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,8 @@
 			children = (
 				37AB29AC27E012DB00D425C3 /* zzapptalkApp.swift */,
 				37AB29AE27E012DB00D425C3 /* ContentView.swift */,
-				37AB29B027E012DD00D425C3 /* Assets.xcassets */,
+				5574D4B1280E77D0002411DE /* Media.xcassets */,
+				55EA51BE2819C13F0097082B /* Launch Screen.storyboard */,
 				37AB29B227E012DD00D425C3 /* Preview Content */,
 			);
 			path = zzapptalk;
@@ -125,8 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55EA51BF2819C13F0097082B /* Launch Screen.storyboard in Resources */,
 				37AB29B427E012DD00D425C3 /* Preview Assets.xcassets in Resources */,
-				37AB29B127E012DD00D425C3 /* Assets.xcassets in Resources */,
+				5574D4B2280E77D0002411DE /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +280,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -307,6 +312,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
